@@ -45,7 +45,7 @@ images.forEach(image => {
 
 galleryList.appendChild(fragment); // Вставляємо всі елементи за одну операцію
 
-galleryList.style.display = 'flex';
-galleryList.style.flexWrap = 'wrap';
-galleryList.style.margin = '100px 156px';
-galleryList.style.gap = '48px 24px';
+// galleryList.style.display = 'flex';
+// galleryList.style.flexWrap = 'wrap';
+// galleryList.style.margin = '100px 156px';
+// galleryList.style.gap = '48px 24px';
