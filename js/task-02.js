@@ -26,7 +26,7 @@ const images = [
 ];
 
 const galleryList = document.querySelector('.gallery');
-const fragment = document.createDocumentFragment(); // Створюємо DocumentFragment
+const fragment = document.createDocumentFragment(); 
 
 images.forEach(image => {
   const listItem = document.createElement('li');
@@ -43,9 +43,5 @@ images.forEach(image => {
   fragment.appendChild(listItem);
 });
 
-galleryList.appendChild(fragment); // Вставляємо всі елементи за одну операцію
+galleryList.appendChild(fragment);
 
-// galleryList.style.display = 'flex';
-// galleryList.style.flexWrap = 'wrap';
-// galleryList.style.margin = '100px 156px';
-// galleryList.style.gap = '48px 24px';
